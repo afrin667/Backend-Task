@@ -7,4 +7,6 @@ type Post struct {
 	IsLiked   bool     `json:"isLiked"`
 	LikeCount int      `json:"likeCount"`
 	Comment   []string `json:"comments"`
+
+	// Linked list for comments reply
 }
